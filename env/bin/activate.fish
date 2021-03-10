@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/kdog/Documents/SenWintSem/486/assignment3/env"
+set -gx VIRTUAL_ENV "/afs/umich.edu/user/k/a/kaymckay/Documents/486_assign3/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,7 +52,7 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(env) "
+        if test -n "(env) "            
             printf "%s%s" "(env) " (set_color normal)
         else
             # ...Otherwise, prepend env

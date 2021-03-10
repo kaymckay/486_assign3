@@ -1,4 +1,5 @@
-#!/Users/kdog/Documents/SenWintSem/486/assignment3/env/bin/python3
+#!/afs/umich.edu/user/k/a/kaymckay/Documents/486_assign3/env/bin/python3
+
 # -*- coding: utf-8 -*-
 import re
 import sys
